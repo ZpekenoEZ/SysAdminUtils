@@ -1,8 +1,8 @@
 !/bin/bash
 
-db_user="c_john"
-db_password="KtR8%eLv45^=C4u"
-db_name="test"
+db_user="" # Enter your username
+db_password="" # Enter your password
+db_name="" # Enter your database name
 
 mysql -u "$db_user" -p"$db_password" -e "SELECT * FROM $db_name;" && \
 echo "Successful Authentication MySQL" || \
